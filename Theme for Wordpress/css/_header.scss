@@ -1,0 +1,56 @@
+header{
+    .logo{
+        padding-top: .5em; //8px
+        padding-bottom: .5em; //8px
+        a{
+         display: inline-block;  
+        }
+    }
+    .redes-sociales{
+        text-align: right;
+        line-height: 5em; //80px
+        a{
+            border-radius: 50%;
+            width: 2.5em; //40px
+            height: 2.5em; //40px
+            text-align: center;
+            line-height: 2.5em;//40px
+            display: inline-block;
+            background: navy;
+            color: #fff;
+            margin-left: 1.25em; //20px
+            &.facebook{
+                background: #3b5998;
+            }
+            &.instagram{
+                background: #405de6;
+            }
+            &.github{
+                background: #4078c0;
+            }
+        }
+    }
+    .menu{
+        background: $azul_primario;
+        margin-bottom: 1.25em;
+        ul{
+            list-style: none;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            li{
+                display: inline-block;
+                
+                a{
+                    color: #fff;
+                    display: inline-block;
+                    padding: 1em 1.25em;
+                    font-size: 0.87em;
+                    &:hover{
+                        background: $azul_secundario;
+                    }
+                }
+            }
+        }
+    }
+}
